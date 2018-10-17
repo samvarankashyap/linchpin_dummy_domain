@@ -1,0 +1,18 @@
+---
+topology_name: "dummy"
+resource_groups:
+  - resource_group_name: "dummy"
+    resource_group_type: "dummy"
+    resource_definitions:
+      - role: "dummy_node"
+        name: "web"
+        #domain: "" #skips the domain 
+        domain: ".hello.net"
+        count: 2
+      - role: "dummy_node"
+        name: "dbweb"
+        #domain: "" #skips the domain
+        domain: ".hello.com"
+      - role: "dummy_node"
+        name: "restyserve"
+        domain: ""

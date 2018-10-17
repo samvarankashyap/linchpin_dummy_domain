@@ -1,0 +1,12 @@
+[example]
+web-0.hello.net hostname=web-0.hello.net
+web-1.hello.net hostname=web-1.hello.net
+dbweb.hello.com hostname=dbweb.hello.com
+restyserve hostname=restyserve
+
+[all]
+web-0.hello.net hostname=web-0.hello.net
+web-1.hello.net hostname=web-1.hello.net
+dbweb.hello.com hostname=dbweb.hello.com
+restyserve hostname=restyserve
+
